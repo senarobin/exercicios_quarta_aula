@@ -1,7 +1,7 @@
 import re
 
-frase = 'Computador desligado'
+frase = input('Digite uma frase: ')
 
-substituir = re.sub(r'\*:\S+', 'aeiou', '*', frase)
+substituir = re.sub('[aeiou]', '*', frase)
 
-print(substituir)
+print(f'A frase vai ficar {substituir}')

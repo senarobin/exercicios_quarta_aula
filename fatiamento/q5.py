@@ -1,10 +1,10 @@
 
-palavra = input('Escreva um nome: ')
+palavra = input('Escreva uma palavra: ')
 
 palavra_reverso = palavra[::-1]
 
 
 if palavra == palavra_reverso:
-    print('no nome é um palíndromo')
+    print('É um palíndromo')
 else: 
     print('Não é um palíndromo')
