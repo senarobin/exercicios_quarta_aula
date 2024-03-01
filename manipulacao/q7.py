@@ -1,5 +1,6 @@
 frase = input('Digite uma frase: ')
+letra = input('Digite uma letra: ')
 
-contador = frase.count('a')
+contador = frase.count(letra)
 
 print(contador)
