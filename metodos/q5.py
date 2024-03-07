@@ -1,5 +1,10 @@
-nome = input('Digite seu nome: ')
+import re
 
-sobrenome = nome[nome]
+frase = input('Digite uma frase: ')
+palavra = input('Digite uma palavra: ')
 
-print(sobrenome)
+sep_palavras = frase.split()
+
+palavra_muda = re.sub(sep_palavras, palavra)
+
+print(palavra_muda)
