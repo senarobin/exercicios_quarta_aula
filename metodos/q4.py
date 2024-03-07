@@ -1,6 +1,7 @@
-frase = input('Digite qualquer frase: ')
 
-cont_caracteres = frase.split()
+frase = input('Digite uma frase que tenha a palavra caramelo: ')
+palavra = input('Digite uma palavra: ')
 
-for i in cont_caracteres:
-    print(i)
+subs_palavra = frase.replace('caramelo', palavra)
+
+print(subs_palavra)
